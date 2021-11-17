@@ -13,23 +13,28 @@
     <title>Mi primera Web</title>
 </head>
 
-<body>
+<body class="textos">
     <header>
 
         <img src="/images/logo-mercado-liebre.svg" alt="Logo mercado libre" class="logo">
 
-        <p>Lugar para poner la barra de busqueda</p>
-        <p class="p1"><i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin tarjetas de credito</p>
+        <p class="busqueda">
+            <input type="text" size="30" value="Buscar productos, marcas" name="barra busqueda" class="textbox">
+            <br>
+            <i class="fas fa-search"></i>
+        </p>
+
+        <p class="p1 textos"><i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin tarjetas de credito</p>
 
         <nav>
-            <ul class="listas">
+            <ul class="listas textos">
                 <li><a href="">Ofertas</a></li>
                 <li><a href="">Tiendas Oficiales</a></li>
                 <li><a href="">Vender</a></li>
                 <li><a href="">Ayuda</a></li>
             </ul>
             <br>
-            <ul class="listas">
+            <ul class="listas textos">
                 <li><a href="">Crea tu cuenta</a>
                     <i class="far fa-address-card"></i></li>
                 <li><a href="">Ingresa</a>
@@ -49,85 +54,93 @@
 
     <main>
         <section>
-            <h1>Basado en tu ultima busqueda</h1>
+            <h1 class="titulares">Basado en tu ultima busqueda</h1>
             <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera">
-            <p>$6.770</p>
-            <p>40% OFF</p>
-            <p><b>Cafetera Moulinex</b></p>
+            <p class="precios">$6.770</p>
+            <p class="descdescr">40% OFF</p>
+            <p class="descdescr"><b>Cafetera Moulinex</b></p>
 
             <br>
 
             <img src="/images/img-macbook-pro-2019.jpg" alt="MacBook">
-            <p>$230.000</p>
-            <p>20% off</p>
-            <p><b>MacBook Pro 2019</b></p>
+            <p class="precios">$230.000</p>
+            <p class="descdescr">20% off</p>
+            <p class="descdescr"><b>MacBook Pro 2019</b></p>
 
             <br>
 
             <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy">
-            <p>$70.500</p>
-            <p>10% off</p>
-            <p><b>Samsung Galaxy S10</b></p>
+            <p class="precios">$70.500</p>
+            <p class="descdescr">10% off</p>
+            <p class="descdescr"><b>Samsung Galaxy S10</b></p>
 
             <br>
 
             <img src="/images/img-tv-samsung-smart.jpg" alt="Samsung Tv">
-            <p>$23.200</p>
-            <p>5% off</p>
-            <p><b>SmartTv Samsung 43"</b></p>
+            <p class="precios">$23.200</p>
+            <p class="descdescr">5% off</p>
+            <p class="descdescr"><b>SmartTv Samsung 43"</b></p>
 
         </section>
 
         <section>
-            <h1>Ofertas</h1>
+            <h1 class="titulares">Ofertas</h1>
             <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera">
-            <p>$6.770</p>
-            <p>40% OFF</p>
-            <p><b>Cafetera Moulinex</b></p>
+            <p class="precios">$6.770</p>
+            <p class="descdescr">40% OFF</p>
+            <p class="descdescr"><b>Cafetera Moulinex</b></p>
 
             <br>
 
             <img src="/images/img-macbook-pro-2019.jpg" alt="MacBook">
-            <p>$230.000</p>
-            <p>20% off</p>
-            <p><b>MacBook Pro 2019</b></p>
+            <p class="precios">$230.000</p>
+            <p class="descdescr">20% off</p>
+            <p class="descdescr"><b>MacBook Pro 2019</b></p>
 
             <br>
 
             <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung Galaxy">
-            <p>$70.500</p>
-            <p>10% off</p>
-            <p><b>Samsung Galaxy S10</b></p>
+            <p class="precios">$70.500</p>
+            <p class="descdescr">10% off</p>
+            <p class="descdescr"><b>Samsung Galaxy S10</b></p>
 
             <br>
 
             <img src="/images/img-tv-samsung-smart.jpg" alt="Samsung Tv">
-            <p>$23.200</p>
-            <p>5% off</p>
-            <p><b>SmartTv Samsung 43"</b></p>
+            <p class="precios">$23.200</p>
+            <p class="descdescr">5% off</p>
+            <p class="descdescr"><b>SmartTv Samsung 43"</b></p>
 
         </section>
     </main>
 
     <footer>
-        <section>
-            <p><b>Pagá con tarjeta o en efectivo</b></p>
-            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
-        </section>
+        <article>
+            <i class="fas fa-credit-card logos_footer"></i>
 
-        <section>
-            <p><b>Envío gratis desde $ 2.500</b></p>
-            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
-        </section>
+            <p>
+                <h2>Pagá con tarjeta o en efectivo</h2>
+                Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+        </article>
+        <br>
+        <article>
+            <i class="fas fa-gift logos_footer"></i>
 
-        <section>
-            <p><b>Seguridad, de principio a fin</b></p>
-            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
-        </section>
+            <p>
+                <h2>Envío gratis desde $ 2.500</h2>
+                Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+        </article>
+        <br>
+        <article>
+            <i class="fas fa-user-shield logos_footer"></i>
 
-        <section>
-            <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
-        </section>
+            <p>
+                <h2>Seguridad de principio a fin</h2>
+                ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+        </article>
+        <br>
+        <p class="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+
     </footer>
 </body>
 
