@@ -24,9 +24,9 @@
             </article>
 
             <article id='two'>
-                <input type="text" size="30" value="Buscar productos, marcas" name="barra busqueda" class="textbox">
+                <input type="text" size="30" value="Buscar productos, marcas" name="barra busqueda" class="textbox" onclick="if(this.value=='Buscar productos, marcas') this.value=''" onblur="if(this.value=='') this.value='Buscar productos, marcas'">
 
-                <button type="button"><i class="fas fa-search"></i></button>
+                <button type="button" class="lupa"><i class="fas fa-search"></i></button>
             </article>
 
             <p id='three' class="centrar textos"><i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin tarjetas de credito</p>

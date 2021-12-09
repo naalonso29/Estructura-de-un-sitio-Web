@@ -44,7 +44,7 @@
         align-items: center;
     }
     #three {
-        width: 33vw;
+        width: 31vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -128,7 +128,7 @@
         text-align: center;
     }
     footer article i {
-        transition: transform 400ms;
+        transition: transform 0.5s;
     }
     footer article i:hover {
         color: #EAC926;
@@ -160,11 +160,11 @@
     }
     .descr {
         display: none;
-        transition: all .5s;
+        transition: all 800ms;
     }
     main section article:hover>.descr {
         display: block;
-        transition: all .5s;
+        transition: all 800ms;
     }
     #one {
         width: 33vw;
@@ -178,7 +178,7 @@
         align-items: center;
     }
     #three {
-        width: 33vw;
+        width: 31vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -342,10 +342,15 @@ h1 {
     color: #ebebeb;
     width: 70%;
     height: 50%;
-    /*margin-left: 0px;
-    margin-right: 0px;*/
-    border: none;
-    border-radius: 2%;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.lupa {
+    border-radius: 5px;
+    border: 1px solid white;
+    position: relative;
+    right: 7px;
 }
 
 header section article button {
