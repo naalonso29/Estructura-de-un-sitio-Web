@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "app.js",
+    "start": "node app.js",
     "scripts": {
         "test": "nodemon app.js -e js,mjs,json,html,css"
     },
